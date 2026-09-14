@@ -1,0 +1,17 @@
+# Տեքստային ֆայլերի տողերի վերջը մեկ ձևի բերել
+* text=auto eol=lf
+
+# Երկուական ֆայլեր — git-ը դրանք չպետք է փոխի
+*.m4a  binary
+*.mp3  binary
+*.wav  binary
+*.flac binary
+*.ogg  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+
+# Սկրիպտներ
+*.bat text eol=crlf
+*.sh  text eol=lf
