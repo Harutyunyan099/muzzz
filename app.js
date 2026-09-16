@@ -1345,7 +1345,7 @@
     document.body.dataset.theme = theme;
     store.set('theme', theme);
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme === 'dark' ? '#060d11' : '#eceff0';
+    if (meta) meta.content = theme === 'dark' ? '#030405' : '#eceff0';
     $$('.segmented [data-theme-set]').forEach(function (b) {
       b.classList.toggle('is-on', (b.dataset.themeSet === 'day') === (theme === 'light'));
     });
