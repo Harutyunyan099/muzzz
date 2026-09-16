@@ -465,7 +465,7 @@ body.is-dragging .main { outline: 2px dashed var(--accent); outline-offset: -12p
 .player__now, .player__controls, .player__side { position: relative; }
 .player__now { display: flex; align-items: center; gap: 13px; min-width: 0; }
 
-.player__open { padding: 0; border: 0; background: none; border-radius: var(--r-md); flex: none; line-height: 0; }
+.player__open { padding: 0; border: 0; background: #545454; border-radius: var(--r-md); flex: none; line-height: 0; }
 .player__cover {
   width: 60px; height: 60px;
   border-radius: var(--r-md);
