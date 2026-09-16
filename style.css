@@ -64,7 +64,7 @@ html { background: var(--bg); }
 body {
   margin: 0;
   color: var(--text);
-  background: transparent;
+  background: #595959;
   font-family: var(--font-body);
   font-size: 15px;
   line-height: 1.5;
